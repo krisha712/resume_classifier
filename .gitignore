@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Kiro
+.snapshots/
+
+# Raw resume PDFs
+data/**/*.pdf
+
+# Original raw dataset files
+data/Resume/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db

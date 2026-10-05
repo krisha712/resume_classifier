@@ -1,0 +1,47 @@
+════════════════════════════════════════════════════════════
+  FINAL TEST SET REPORT
+════════════════════════════════════════════════════════════
+  Best model (by Val Macro-F1) : Exp-B (1,2) | LinearSVC
+  Best validation Macro-F1     : 0.6185
+
+  Test Set Metrics
+  ────────────────────────────────────────
+  accuracy              : 0.6835
+  precision_macro       : 0.6670
+  recall_macro          : 0.6446
+  f1_macro              : 0.6393
+  f1_weighted           : 0.6724
+
+  Per-class Classification Report
+  ────────────────────────────────────────
+                          precision    recall  f1-score   support
+  
+              ACCOUNTANT       0.62      0.83      0.71        18
+                ADVOCATE       0.67      0.56      0.61        18
+             AGRICULTURE       1.00      0.67      0.80         9
+                 APPAREL       0.70      0.47      0.56        15
+                    ARTS       0.71      0.31      0.43        16
+              AUTOMOBILE       0.50      0.20      0.29         5
+                AVIATION       0.88      0.88      0.88        17
+                 BANKING       0.67      0.82      0.74        17
+                     BPO       0.00      0.00      0.00         3
+    BUSINESS-DEVELOPMENT       0.50      0.72      0.59        18
+                    CHEF       0.88      0.78      0.82        18
+            CONSTRUCTION       0.88      0.82      0.85        17
+              CONSULTANT       0.56      0.29      0.38        17
+                DESIGNER       0.80      0.75      0.77        16
+           DIGITAL-MEDIA       0.67      0.71      0.69        14
+             ENGINEERING       0.76      0.72      0.74        18
+                 FINANCE       0.72      0.62      0.67        21
+                 FITNESS       0.88      0.78      0.82        18
+              HEALTHCARE       0.53      0.53      0.53        17
+                      HR       0.52      0.88      0.65        17
+  INFORMATION-TECHNOLOGY       0.67      0.89      0.76        18
+        PUBLIC-RELATIONS       0.74      0.82      0.78        17
+                   SALES       0.53      0.47      0.50        17
+                 TEACHER       0.64      0.93      0.76        15
+  
+                accuracy                           0.68       376
+               macro avg       0.67      0.64      0.64       376
+            weighted avg       0.69      0.68      0.67       376
+════════════════════════════════════════════════════════════

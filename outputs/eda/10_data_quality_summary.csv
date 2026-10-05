@@ -1,0 +1,11 @@
+metric,value
+total_resumes,2500.0
+total_categories,24.0
+missing_text,1.0
+empty_text,1.0
+short_resumes_lt_50_words,1.0
+duplicate_text,18.0
+min_word_count,0.0
+max_word_count,5190.0
+mean_word_count,811.8
+median_word_count,759.0
